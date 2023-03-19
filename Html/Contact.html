@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+
+    <div id="BarBox">
+        <div class="switch">
+            <img src="../logo.png" alt="" class="w-100">
+            <i class="fa-solid open-close-icon fa-2x fa-x d-none"></i>
+            <i class="fa-solid open-close-icon fa-2x fa-align-justify"></i>
+            <div>
+                <i class="fa-solid fa-globe d-block"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+
+        </div>
+        <div class="p-4 text-light">
+            <a id="SarchFile">
+                <h5>Search</h5>
+            </a>
+            <a id="categoriesFile">
+                <h5>categories</h5>
+            </a>
+            <a id="AreaFile">
+                <h5>Area</h5>
+            </a>
+            <a id="IngredientsFile">
+                <h5>Ingredients</h5>
+            </a>
+            <a id="ContactUsFile">
+                <h5>Contact Us</h5>
+            </a>
+        </div>
+
+
+        <div class="socials text-light">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-globe"></i>
+            <p>Copyright Â© 2019 All Rights Reserved.</p>
+
+        </div>
+    </div>
+
+
+
+    <section>
+        <div class=" p-5 d-flex justify-content-around ">
+            <div class="d-flex flex-column">
+                <input type="text" class="form-control mb-1 " placeholder="enter your name" id="userName"></input>
+                <p class=" bg-danger rounded p-2 text-white d-none" id="nameWarning">Special characters and numbers not allowed </p>
+            </div>
+            
+            <div class="d-flex flex-column">
+                <input type="email" class="form-control mb-1 " placeholder="enter your email" id="userEmail"></input>
+                <p class=" bg-danger rounded p-2 text-white d-none" id="emailWarning"> Email not valid *exemple@yyy.zzz </p>
+            </div>
+           
+
+        </div>
+        <div class=" p-5 d-flex justify-content-around ">
+
+            <div class="d-flex flex-column">
+                <input type="tel" class="form-control mb-1 " placeholder="enter your number" id="userNumber"></input>
+                <p class=" bg-danger rounded p-2 text-white d-none" id="numberWarning"> Enter valid Phone Number  </p>
+            </div>
+
+            <div class="d-flex flex-column">
+                <input type="Age" class="form-control mb-1 " placeholder="enter your age" id="userAge"></input>
+                <p class=" bg-danger rounded p-2 text-white d-none" id="ageWarning"> Enter valid age  </p>
+            </div>
+
+
+        </div>
+        <div class=" p-5 d-flex justify-content-around ">
+
+            <div class="d-flex flex-column">
+                <input type="password" class="form-control mb-1 " placeholder="enter your password" id="userPassword"></input>
+                <p class=" bg-danger rounded p-2 text-white d-none"  id="passwordWarning">Enter valid password *Minimum eight characters, at least one letter and one number:*  </p>
+            </div>
+
+            <div class="d-flex flex-column">
+                <input type="password" class="form-control mb-1 " placeholder=" Repassword" id="userRepassword"></input>
+                <p class=" bg-danger rounded p-2 text-white d-none"> Enter valid repassword </p>
+            </div>
+
+
+
+        </div>
+        <div class="d-flex justify-content-center ">      
+              <btn class="btn btn-danger disabled" id="sendBtn">submit</btn>
+        </div>
+    </section>
+
+
+    <script src="../js/jquery-3.6.3.min.js"></script>
+    <script src="../js/contact.js"></script>
+
+</body>
+
+</html>
